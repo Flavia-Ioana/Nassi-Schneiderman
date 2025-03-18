@@ -1,0 +1,52 @@
+citeste a
+citeste b
+citeste n
+daca a>b atunci
+    aux = a
+    a = b
+    b = aux
+j=0
+cat_timp j<n executa
+    pentru i=a;i<=b;i++ executa
+        s+=i
+        daca s%a==0 si s%b==0 atunci
+            repeta
+                nou++
+            pana_cand s>=n
+    j++
+cat_timp s!=0 executa
+    c=s%10
+    switch(c--)
+        case 0:
+            nou=nou10+c+2
+        case 1:
+            nou=nou10+c4
+        default:
+            nou=nou10
+    s=s/10
+produs=1
+OK=1
+daca nou>=10 si nou<=100 atunci
+    pentru j=1;j<=nou;j++ executa
+        daca nou%j==0 atunci
+            scrie j
+            scrie ' '
+        altfel
+            produs*=j
+            repeta
+                produs+=j
+                repeta
+                    nou+=2
+                pana_cand nou>=n
+            pana_cand produs%2!=0
+altfel
+    nou=0
+    OK=0
+    pentru k=2;k<=n;k+=2
+        produs--
+scrie produs
+scrie ' '
+daca OK=0 atunci
+    scrie 'NU'
+altfel
+    scrie 'DA'

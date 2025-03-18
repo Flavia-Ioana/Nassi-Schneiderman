@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1705348615 source:d:\anul 1, licenta\proiect ip nassi-schneidermann\proiect combinat 4\main.cpp
+	<iostream>
+	<fstream>
+	<graphics.h>
+	<cstring>
+	<string>
+	<cctype>
+	"adder.h"
+	"adder_frontend.h"
+
+1705516491 d:\anul 1, licenta\proiect ip nassi-schneidermann\proiect combinat 4\adder.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1705516491 d:\anul 1, licenta\proiect ip nassi-schneidermann\proiect combinat 4\adder_frontend.h
+
